@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+</head>
+<body bgcolor="#D9F8C4">
+        <p style="text-align:center;"><img src="/resources/logo.png" alt="Logo" width="80" height="80"></p>
+        <p style="text-align:center;"><b>TELANGANA TOURISM</b></p>
+        <table bgcolor="#FA6B84"; width="100%" cellspacing="10" cellpadding="15">
+            <tr>
+                <th><a href="home.html" target="_blank" style="color:#FAFB92";>Home</a></th>
+                <th><a href="heritage.html" target="_blank" style="color:#FAFB92">Heritage</a></th>
+                <th>Booking</th>
+                <th><a href="gallery.html" target="_blank" style="color: #FAFB92";>Gallery</a></th>
+            </tr>
+        </table>
+    <h2 style="font-size:40px; text-align: center;">Hotel Booking Form</h2>
+    <form action="registration.xyz">
+    <fieldset>
+        <legend>Personal Information</legend>
+        
+        First name:
+        <input type="text" name="firstname"> 
+        Last name:
+        <input type="text" name="lastname">
+        <br>
+        <br>
+        E-mail:
+        <input type="email" name="E-mail">
+        Mobile No:
+        <input type="tel" name="mobile">
+        <br>
+        <br>
+        Arrival Date:
+        <input type="date">
+        <br>
+        <br>
+        Departure Date:
+        <input type="date">
+        <br>
+        <br>
+        Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
+        <br>
+        <br>
+        Address:
+        <br>
+        Address Line 1:
+        <input type="text" name="Address Line 1">
+        Address Line 2:
+        <input type="text" name="Address  Line 2">
+        <br>
+        <br>
+    </fieldset>
+    <br>
+    <br>
+
+    <fieldset>
+        <legend>Hotel Services</legend>
+        Please select the hotel at which you need the accommodation  :
+        <select name="Hotel" id="hotel">
+            <option value="Haritha Taramati Baradari Resort">Haritha Taramati Baradari Resort</option>
+            <option value="Hotel The Plaza Begumpet">Hotel The Plaza Begumpet</option>
+            <option value="Haritha Kakatiya Hotel">Haritha Kakatiya Hotel</option>
+        </select>
+        <br>
+        <br>
+        Please Select the number of rooms:
+        <select name="Rooms">
+            <option value="one">1</option>
+            <option value="two">2</option>
+            <option value="three">3</option>
+            <option value="four">4</option>
+            <option value="five">5</option>
+        </select>
+        <br>
+        <br>
+        Please Select the Tariff:
+        <select name="Tariff">
+            <option value="1">A/C Suite</option>
+            <option value="2">Dormitory</option>
+            <option value="3">A/c Deluxe</option>
+            <option value="4">Non-AC and 3 bedded</option>
+            <option value="5">AC Standard</option>
+            <option value="6">Deluxe Room</option>
+            <option value="7">Standard Room</option>
+        </select>
+        <br>
+        <br>
+        Free Pickup Service:
+    <input type="radio" name="Free Pickup Service">Yes
+        <input type="radio" name="Free Pickup Service">No
+        <br>
+        <br>
+    </fieldset>
+    
+    <br>
+    <br>
+    <input type="submit"> <em>or</em>
+    <input type="reset">
+</form>
+</body>
+</html>
